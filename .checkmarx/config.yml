@@ -12,7 +12,7 @@ checkmarx:
         # configure the SAST preset name used for this specific project
         presetName: 'XSS and SQLi only'
          # configure if this specific project will be run incrementally or will it run a full scan 
-        incremental: 'false'
+        incremental: 'true'
         languageMode: 'multi'
         engineVerbose: 'true'
-        filter: '!**/*.cpp' #test, there is no cpp
+        filter: '!**/*.java' #test, there is no cpp
