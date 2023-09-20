@@ -15,4 +15,4 @@ checkmarx:
         incremental: 'false'
         languageMode: 'multi'
         engineVerbose: 'true'
-        filter: '!**/*.java' #test
+        filter: '!**/*.cpp' #test, there is no cpp
